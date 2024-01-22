@@ -1,0 +1,283 @@
+@charset "utf-8";
+body {
+    background: black;
+    width: 1470px;
+    height: 790px;
+}
+header {
+    margin: 10px auto 20px;
+}
+.basezone {
+    display: flex;
+}
+main {
+    background: #ffffff;
+    width: 1254px;
+    height: 758px;
+    position: relative;
+    overflow: hidden hidden;
+    padding: 4px;
+    margin: 10px auto 10px;
+}
+.icon img {
+    width: 200px;
+    height: 160px;
+}
+aside {
+    width: 200px;
+    text-align: center;
+}
+footer {
+    background: rgb(119, 119, 92);
+    height: 20px;
+    padding: 4px 4px 4px 4px;
+    text-align: center;
+}
+h1 {
+    font-size: 36px;
+    color: #ffffff;
+}
+h2 {
+    font-size: 18px;
+    color: #c6c5c5;
+}
+h3 {
+    font-size: 14px;
+    color: #513232;
+}
+.head {
+    padding: 0 0 0 10px;
+}
+.icon001 {
+    transform: rotate(-20deg);
+    position: absolute;
+    top: 524px;
+    left: 66px;
+    z-index: 80;
+}
+.icon002 {
+    transform: rotate(18deg);
+    position: absolute;
+    top: -2px;
+    left: 988px;
+    z-index: 80;
+}
+.icon003 {
+    transform: rotate(28deg);
+    position: absolute;
+    top: 401px;
+    left: 1053px;
+    z-index: 30;
+}
+.icon004 {
+    transform: rotate(3deg);
+    position: absolute;
+    top: 27px;
+    left: -2px;
+    z-index: 80;
+}
+.icon005 {
+    transform: rotate(-6deg);
+    position: absolute;
+    top: 74px;
+    left: 527px;
+    z-index: 45;
+}
+.icon006 {
+    transform: rotate(-18deg);
+    position: absolute;
+    top: 397px;
+    left: 497px;
+    z-index: 30;
+}
+.icon007 {
+    transform: rotate(30deg);
+    position: absolute;
+    top: 513px;
+    left: 757px;
+    z-index: 80;
+}
+.icon008 {
+    transform: rotate(-9deg);
+    position: absolute;
+    top: 237px;
+    left: 83px;
+    z-index:24;
+}
+.icon009 {
+    transform: rotate(2deg);
+    position: absolute;
+    top: 517px;
+    left: 304px;
+    z-index: 80;
+}
+.icon010 {
+    transform: rotate(-9deg);
+    position: absolute;
+    top: 96px;
+    left: 810px;
+    z-index: 80;
+}
+.icon011 {
+    transform: rotate(6deg);
+    position: absolute;
+    top: 146px;
+    left: 315px;
+    z-index: 80;
+}
+.icon012 {
+    transform: rotate(15deg);
+    position: absolute;
+    top: 590px;
+    left: 596px;
+    z-index: 30;
+}
+.icon013 {
+    transform: rotate(-46deg);
+    position: absolute;
+    top: 285px;
+    left: 796px;
+    z-index: 10;
+}
+.x01 {
+    font-family: 'Aoboshi One', serif;
+    width: 980px;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 300px;
+    left: 130px;
+    z-index: 60;
+    color: rgb(2, 164, 40);
+}
+.x02 {
+    font-family: 'Aoboshi One', serif;
+    width: 980px;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 434px;
+    left: 149px;
+    z-index: 58;
+}
+.x03 {
+    font-family: 'Aoboshi One', serif;
+    width: 980px;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 421px;
+    left: 138px;
+    z-index: 61;
+    color: rgba(50,50,50,0)
+}
+.x02sys{
+    height: 100px;
+    border: 1px solid white;
+    padding: 28px;
+    margin: 20px auto 20px;
+}
+.x02sys:hover{
+    color: #a4febe;
+}
+.x03sys{
+    height: 100px;
+    border: 1px solid white;
+    padding: 28px;
+    margin: 20px auto 20px;
+}
+.x03sys:hover div{
+    color: #2cf1fb;
+}
+.ke {
+    transform: rotate(-12deg);
+}
+.ro {
+    transform: rotate(3deg);
+}
+.ttu {
+    transform: rotate(-5deg);
+}
+.ta {
+    transform: rotate(-5deg);
+}
+.xa {
+    transform: rotate(15deg);
+}
+.zu {
+    transform: rotate(-2deg);
+}
+main p {
+    font-size: 120px;
+}
+.x02 {
+    font-size: 120px;
+}
+.x03 {
+    font-size: 120px;
+}
+.setumei {
+    font-size: 18px;
+    color: white;
+}
+.qrres {
+    position: absolute;
+    top: 480px;
+    left: 980px;
+    z-index: 60;
+}
+.qrres img {
+    width: 200px;
+    height: 200px;
+}
+.asidecom {
+    margin-bottom: 40px;
+}
+.icon011:hover {
+    transform: translate(-200px) rotate(180deg);
+    /*
+    transform: rotate(180deg) translate(-200px);
+*/
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-delay: 0ms;
+    transition-timing-function: ease-in;
+}
+
+
+
+
+
+
+/*
+@media screen and (max-width:640px){
+    .basezone {
+        display: block;
+    }
+    body,main,aside{
+        width: 350px;
+    }
+    .x01,.x02,.x03{
+        width: 30%;
+    }
+    aside {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    main p {
+        font-size: 40px;
+    }
+    .x02 {
+        font-size: 40px;
+    }
+    .x03 {
+        font-size: 40px;
+    }
+    .setumei {
+        font-size: 10px;
+        color: white;
+    }
+    .icon img {
+        width: 55px;
+        height: 48px;
+    }*/
